@@ -548,8 +548,7 @@ h2 em {
 }
 
 .wl details {
-      border-bottom: 1px dotted rgba(242, 184, 162, .5)
-}
+    border-bottom: 1px dotted rgba(242, 184, 162, .5)}
 
 .wl summary {
     list-style: none;
@@ -877,6 +876,34 @@ em {
 
 @media (max-width: 860px) {
     .rev {
+        grid-template-columns:1fr
+    }
+}
+
+.faq {
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 6px 60px
+}
+
+.faq div {
+    padding: 18px 0;
+    border-bottom: 1px dotted rgba(178, 58, 42, .6)
+}
+
+.faq h3 {
+    font-size: 1.35rem;
+    margin-bottom: 6px
+}
+
+.faq p {
+    margin: 0;
+    opacity: .85
+}
+
+@media (max-width: 860px) {
+    .faq {
         grid-template-columns:1fr
     }
 }
