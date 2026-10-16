@@ -548,7 +548,7 @@ h2 em {
 }
 
 .wl details {
-    border-bottom: 1px dotted rgba(227, 194, 122, .5)
+      border-bottom: 1px dotted rgba(242, 184, 162, .5)
 }
 
 .wl summary {
@@ -604,7 +604,7 @@ h2 em {
     justify-content: space-between;
     gap: 16px;
     padding: 10px 0 10px 14px;
-    border-left: 2px solid #b8893a;
+    border-left: 2px solid #f2b8a2;
     margin-bottom: 6px
 }
 
